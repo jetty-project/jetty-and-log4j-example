@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html>
+  <head>
+    <title>Logging &amp; Echo &amp; Form</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+      body {
+        background-color: white;
+        font-family: sans-serif;
+      }
+      
+      h1 {
+        border-bottom: 1px solid #333;
+        width: 15em;
+      }
+      
+      p.note {
+        border: 1px dotted #333;
+        background-color: #ddd;
+        padding: 10px;
+        width: 30em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Logging &amp; Echo &amp; Form</h1>
+    <form method="post" action="echoform">
+      <label for="title">Title:</label>
+      <input type="text" name="title"></input><br/>
+      <label for="description">Description:</label><br/>
+      <textarea name="description" rows="10" cols="30"></textarea><br/>
+      <input type="checkbox" name="enablePenguin"></input>
+      <label for="enablePenguin">Enable Penguin</label><br/>
+      <input type="submit" value="Submit"/>
+    </form>
+    <br/>
+    <p class="note">This form does nothing special in the browser, check the logs</p>
+  </body>
+</html>
