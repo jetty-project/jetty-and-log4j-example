@@ -9,5 +9,5 @@ jobs:
     name: Maven Build 
     uses: jetty-project/.github/.github/workflows/maven-ci.yml@master
     with:
-      jdk-matrix: '[ "11", "17" ]'    
+      jdk-matrix: '[ "11" ]'    
       maven_version: "3.8.5"
