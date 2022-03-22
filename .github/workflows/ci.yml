@@ -8,5 +8,3 @@ jobs:
   build:
     name: Maven Build 
     uses: jetty-project/.github/.github/workflows/maven-ci.yml@master
-
-
